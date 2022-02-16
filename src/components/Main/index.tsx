@@ -1,8 +1,11 @@
+import * as S from './styles'
+
 const Main = () => {
   return (
-    <main>
+    <S.Wrapper>
       <h1>React Avançado</h1>
-    </main>
+      <h3>TypeScript, ReactJS, NextJS e Styled Components</h3>
+    </S.Wrapper>
   )
 }
 
