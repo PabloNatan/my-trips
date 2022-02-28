@@ -1,3 +1,8 @@
+import { CloseOutline } from '@styled-icons/evaicons-outline'
+import LinkWrapper from 'components/LinkWrapper'
+
+import * as S from './styles'
+
 type ImageProps = {
   url: string
   height: number
@@ -17,13 +22,24 @@ export type PlaceTemplateProps = {
 const PlaceTemplate = ({ place }: PlaceTemplateProps) => {
   return (
     <>
-      <h1>{place.name}</h1>
+      <LinkWrapper href="/">
+        <CloseOutline size={32} aria-label="Go back to map" />
+      </LinkWrapper>
+      <S.Wrapper>
+        <S.Container>
+          <S.Heading>{place.name}</S.Heading>
 
-      <div dangerouslySetInnerHTML={{ __html: place.description.html }}></div>
+          <S.Body
+            dangerouslySetInnerHTML={{ __html: place.description.html }}
+          />
 
-      {place.gallery.map((image, index) => (
-        <img key={index.toString()} src={image.url} alt={place.name} />
-      ))}
+          <S.Gallery>
+            {place.gallery.map((image, index) => (
+              <img key={index.toString()} src={image.url} alt={place.name} />
+            ))}
+          </S.Gallery>
+        </S.Container>
+      </S.Wrapper>
     </>
   )
 }
