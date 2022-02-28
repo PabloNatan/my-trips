@@ -6,9 +6,11 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   max-width: var(--container);
-  margin: auto;
+
+  padding: var(--large) var(--small);
+  margin-bottom: var(--large);
 `
 export const Heading = styled.h1`
   font-size: var(--large);
@@ -18,9 +20,13 @@ export const Heading = styled.h1`
 
 export const Body = styled.div`
   p {
-    font-size: var(--medium);
+    font-size: var(--small);
     color: var(--white);
     margin-bottom: var(--medium);
     line-height: var(--medium);
+    color: yellowgreen;
+  }
+  a {
+    font-size: var(--small);
   }
 `
