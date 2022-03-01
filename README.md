@@ -23,8 +23,7 @@
 </h4>
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#rocket-technologies">Technologies</a>
 </p>
 
 ![App Screenshot](https://media.graphcms.com/output=format:jpg/resize=height:800,fit:max/z9vVTPuYQSqb1g1pJpVG)
@@ -48,10 +47,6 @@ This project was developed  with the following technologies:
 - [nextjs-progressbar](https://www.npmjs.com/package/nextjs-progressbar)
 - [next-seo](https://www.npmjs.com/package/next-seo)
 - [VS Code][vscode] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
-
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](https://github.com/pablonatan/my-trips/blob/main/LICENSE) for more information.
 
 ---
 
