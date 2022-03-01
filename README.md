@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> 
+    My trips
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pablonatan/my-trips.svg">
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/pablonatan/my-trips.svg">
+  <a href="https://github.com/pablonatan/my-trips/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pablonatan/my-trips.svg">
+  </a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <a href="https://github.com/pablonatan/my-trips/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/pablonatan/my-trips.svg">
+  </a>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  <img alt="GitHub" src="https://img.shields.io/github/license/pablonatan/my-trips.svg">
+</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h4 align="center">
+  This is the final project of the course "Aprenda NextJS, GraphQL/GraphCMS e Leaflet na prática!"  by <a href="https://www.linkedin.com/in/willianjusten/">Willian Justen</a>.
+</h4>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-## Learn More
+![App Screenshot](https://media.graphcms.com/output=format:jpg/resize=height:800,fit:max/z9vVTPuYQSqb1g1pJpVG)
+<p align="center">
+  <a href="https://my-trips-9zi5tluyi-pablonatan.vercel.app/" target="_blank">
+    <img alt="Demo on Netlify" src="https://media.graphcms.com/output=format:jpg/resize=height:800,fit:max/tsmyh5JVS7KsxPUrOb9v">
+  </a>
+</p>
 
-To learn more about Next.js, take a look at the following resources:
+## :rocket: Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was developed  with the following technologies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Nextjs](https://nextjs.org/)
+- [Typescript][ts]
+- [GraphQL](https://graphql.org/)
+- [Leaflet](https://leafletjs.com/)
+- [GraphCMS](https://graphcms.com/)
+- [styled-components](https://www.styled-components.com/)
+- [husky](https://typicode.github.io/husky)
+- [nextjs-progressbar](https://www.npmjs.com/package/nextjs-progressbar)
+- [next-seo](https://www.npmjs.com/package/next-seo)
+- [VS Code][vscode] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-## Deploy on Vercel
+## :memo: License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is under the MIT license. See the [LICENSE](https://github.com/pablonatan/my-trips/blob/main/LICENSE) for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Made with ♥ by Pablo Santos :wave: [Get in touch!](https://www.linkedin.com/in/pablo-santos-a241b621b/)
+
+[ts]: https://www.typescriptlang.org
+[vscode]: https://code.visualstudio.com/
+[yarn]: https://yarnpkg.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
