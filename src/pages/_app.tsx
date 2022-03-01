@@ -4,6 +4,8 @@ import Head from 'next/head'
 import GlobalStyles from 'styles/global'
 
 import NextNProgress from 'nextjs-progressbar'
+import SEO from '../../next-seo.config'
+import { DefaultSeo } from 'next-seo'
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -15,8 +17,8 @@ function App({ Component, pageProps }: AppProps) {
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossOrigin=""
         />
-        <title>My trips</title>
       </Head>
+      <DefaultSeo {...SEO} />
       <GlobalStyles />
       <NextNProgress
         color="#f231a5"
