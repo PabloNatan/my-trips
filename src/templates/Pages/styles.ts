@@ -6,6 +6,7 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
   min-height: 100vh;
   max-width: var(--container);
 
@@ -19,12 +20,12 @@ export const Heading = styled.h1`
 `
 
 export const Body = styled.div`
+  margin: 0 auto;
   p {
     font-size: var(--small);
     color: var(--white);
     margin-bottom: var(--medium);
     line-height: var(--medium);
-    color: yellowgreen;
   }
   a {
     font-size: var(--small);
